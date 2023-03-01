@@ -82,3 +82,7 @@ const pricess = [520, 65000, 8653];
 
 const [quantity, ballance] = pricess;
 console.log(ballance);
+
+
+
+
