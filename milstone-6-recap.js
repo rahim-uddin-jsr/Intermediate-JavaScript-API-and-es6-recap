@@ -29,3 +29,24 @@ const showDiplomaDetails = `
 My institute Name is ${diploma.instituteName}. I read in ${diploma.technicalLabs.softwareLab}. In our Institute The department of ${diploma.departmentName[1]} students are very Active in curriculum Activities.
 `;
 console.log(showDiplomaDetails);
+
+/* ৩.১. শূন্য প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন লিখবে যেটা ৮৯ রিটার্ন করবে।  */
+
+const ZeroParameter = () => 89;
+console.log(ZeroParameter());
+/* ৩.২. এক প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন ডিক্লেয়ার করবে। এই ফাংশনের কাজ হবে যে প্যারামিটার নিবে সেটাকে 17 দিয়ে ভাগ করে ভাগফল রিটার্ন করবে।
+ */
+const divide = (num) => num / 17; //2
+console.log(divide(34));
+
+/* ৩.৩ দুই, প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন লিখবে। এই ফাংশনের কাজ হবে যে দুইটা প্যারামিটার ইনপুট নিবে। সেই দুইটা প্যারামিটারকে যোগ করে যোগফলকে দুই দিয়ে ভাগ করে ভাগফল রিটার্ণ করে দাও।
+ */
+const addThenDevide = (num1, num2) => (num1 + num2) / 2; //2
+console.log(addThenDevide(2, 2));
+
+/* ৩.৪ একাধিক লাইন ওয়ালা অ্যারো ফাংশন লিখো। সেটাতে দুইটা প্যারামিটার নিবে। ওই arrow ফাংশনটা হবে অনেকগুলা লাইনের। সেখানে প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে ৭ যোগ করবে তারপর যোগফল দুইটাকে আবার যোগ করবে। ক্যামনে করবে সেটা চিন্তা করে বের করার চেষ্টা করো।
+ */
+const addMultipleParamiter = (num1, num2) => {
+  return num1 + 7 + (num2 + 7);
+};
+console.log(addMultipleParamiter(1, 2)); //17
