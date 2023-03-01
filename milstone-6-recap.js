@@ -50,3 +50,9 @@ const addMultipleParamiter = (num1, num2) => {
   return num1 + 7 + (num2 + 7);
 };
 console.log(addMultipleParamiter(1, 2)); //17
+
+/* ৪. অনেকগুলা সংখ্যার একটা array হবে। তারপর তোমার কাজ হবে array এর উপরে map ইউজ করে। প্রত্যেকটা উপাদানকে ৭ দিয়ে ভাগ করে ভাগফল আরেকটা array হিসেবে রাখবে। পুরা কাজটা এক লাইনে হবে।
+ */
+const numbers = [21, 14, 52, 62, 12, 32, 52, 85];
+const dividedBySeven = numbers.map((num) => num / 7);
+console.log(dividedBySeven);
