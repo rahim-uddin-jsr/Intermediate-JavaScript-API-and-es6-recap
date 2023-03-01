@@ -56,3 +56,17 @@ console.log(addMultipleParamiter(1, 2)); //17
 const numbers = [21, 14, 52, 62, 12, 32, 52, 85];
 const dividedBySeven = numbers.map((num) => num / 7);
 console.log(dividedBySeven);
+
+/* ৫. জাভাস্ক্রিপ্ট এ array এর map, forEach, filter, find কোনটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো। 
+
+
+1. map array er protita elemnt er upor oparetion aply kore array er elemet ke onno ekta notun array te return kore
+
+2. forEach map er motoi kaj kore kintu kichui return kore na
+
+3. filter array er element gularke sorto sapekkhe khuje ber kore ekta notun array return kore.
+
+4. Find filter er motoi kaj kore kintu ekta ekta matro element peye gelei return kore dei eta element return kore jekhane filter rkta array return kore
+*/
+
+
